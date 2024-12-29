@@ -1,0 +1,2 @@
+# Ignore build dir since we only want code and building tools
+build/

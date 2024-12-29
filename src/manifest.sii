@@ -1,0 +1,27 @@
+SiiNunit
+{
+# ".package_name" does not matter as the dot at the beginning of the file means that this unit is anonymous. 
+# Please keep this form to not make any conflicts with other mod packages (name collisions).
+# Manifest readme: https://modding.scssoft.com/wiki/Documentation/Engine/Mod_manager
+mod_package : .package_name
+{
+
+	# Package version can be any string with any length.
+	package_version: "1.0.0"
+
+	# Display name can be any string with any length.
+	display_name: "Köra Grus"
+
+	# Author can be any string with any length.
+	author: "Nejnar"
+
+	# Categories is an array of strings. 
+	category[]: "cargo_pack"
+
+	# Icon inside the root directory of the mod. Has to be 276x162px
+	icon: "mod_icon.jpg"
+
+	# Description file inside the root directory of the mod.
+	description_file: "mod_description.txt"
+}
+}
